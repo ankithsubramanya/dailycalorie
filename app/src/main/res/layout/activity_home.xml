@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewCaloriesLost"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        android:paddingTop="1000dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/userProfileButton"
+        android:layout_centerHorizontal="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/caloriesLostCardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/common_google_signin_btn_text_light_pressed"
+            android:text="   Calories lost today"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/caloriesLostView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="639 kCal"
+            android:gravity="center_vertical"
+            android:textSize="40sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="12dp" />
+
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewCaloriesGained"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        android:paddingTop="1000dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="136dp"
+        android:layout_below="@+id/userProfileButton"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/caloriesGainedCardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/common_google_signin_btn_text_light_pressed"
+                android:text="   Calories gained today"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/caloriesGainedView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="639 kCal"
+                android:gravity="center_vertical"
+                android:textSize="40sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="12dp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewCaloriesLeft"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        android:paddingTop="1000dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="246dp"
+        android:layout_below="@+id/userProfileButton"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/caloriesGainedLeftTitle"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/common_google_signin_btn_text_light_pressed"
+                android:text="   Calories left to consume today"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/caloriesLeftView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="639 kCal"
+                android:gravity="center_vertical"
+                android:textSize="40sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="12dp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/userProfileButton"
+        style="@android:style/Widget.ImageButton"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/cardViewCaloriesLost" />
+
+    <TextView
+        android:text="Hello!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/userIdView"
+        android:textSize="20sp"
+        android:layout_above="@+id/cardViewCaloriesLost"
+        android:layout_alignStart="@+id/getReportButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_myplaces"
+        android:id="@+id/getFriendsButton"
+        android:elevation="0dp"
+        style="@android:style/Widget.ImageButton"
+        android:layout_marginEnd="9dp"
+        android:layout_above="@+id/cardViewCaloriesLost"
+        android:layout_toStartOf="@+id/addExcerciseButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_recent_history"
+        android:id="@+id/addExcerciseButton"
+        style="@android:style/Widget.ImageButton"
+        android:layout_marginEnd="11dp"
+        android:layout_above="@+id/cardViewCaloriesLost"
+        android:layout_toStartOf="@+id/userProfileButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:id="@+id/addFoodButton"
+        android:elevation="2dp"
+        style="@android:style/Widget.ImageButton"
+        android:layout_alignTop="@+id/removeFoodButton"
+        android:layout_toEndOf="@+id/getFriendsButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_delete"
+        android:id="@+id/removeFoodButton"
+        style="@android:style/Widget.ImageButton"
+        android:layout_below="@+id/cardViewCaloriesLeft"
+        android:layout_toStartOf="@+id/getFriendsButton"
+        android:layout_marginEnd="29dp"
+        android:layout_marginTop="24dp" />
+
+</RelativeLayout>

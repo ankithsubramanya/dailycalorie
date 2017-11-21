@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "625772759172",
+    "firebase_url": "https://dailycalorie-fa25f.firebaseio.com",
+    "project_id": "dailycalorie-fa25f",
+    "storage_bucket": "dailycalorie-fa25f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625772759172:android:cf33ee30ff96cbbd",
+        "android_client_info": {
+          "package_name": "com.example.ankith.dailycalorie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625772759172-dvetsa2rspqghhnk6blhg29dtsjed56p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankith.dailycalorie",
+            "certificate_hash": "48421122257a4be554dbded32549505bf973539f"
+          }
+        },
+        {
+          "client_id": "625772759172-ikjmm3169ela3htjvj8qp7vdq4jhcgdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8BbWC2duDLKxwXFFtn5vsRnesQ7nvej4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625772759172-ikjmm3169ela3htjvj8qp7vdq4jhcgdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
